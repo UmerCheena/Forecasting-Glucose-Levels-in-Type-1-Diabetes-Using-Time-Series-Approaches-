@@ -36,15 +36,16 @@ pip install -r requirements.txt
 unzip data/dataset.zip -d data/
 ```
 
-#4.Run the notebook
-
+4. **Run the notebook**
+```bash
 jupyter notebook glucose_forecasting_models.ipynb
+```
 
-#📝 Notes
+**📝 Notes**
 If you’re using Google Colab, upload the extracted data/ folder before running the notebook.
 The notebook includes model training, evaluation, and visualization steps.
 
-#🤖 Models You’ll Find Here
+**🤖 Models You’ll Find Here**
 LSTM — learns long-term dependencies in glucose sequences.
 GRU — simpler and faster than LSTM but still strong for time series.
 CNN — captures short-term glucose spikes and rapid changes.
