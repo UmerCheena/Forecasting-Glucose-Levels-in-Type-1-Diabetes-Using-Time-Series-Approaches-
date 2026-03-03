@@ -1,2 +1,45 @@
-# Forecasting-Glucose-Levels-in-Type-1-Diabetes-Using-Time-Series-Approaches-
- Through careful feature engineering and exploratory data analysis, we prepare the  data and evaluate three predictive models: Long Short-Term Memory (LSTM), Gated Recurrent  Unit (GRU), and Convolutional Neural Network (CNN). 
+# Glucose Level Forecasting
+This project uses deep learning models (LSTM, GRU, CNN) to predict glucose levels from Continuous Glucose Monitoring (CGM) data.
+It’s designed as a Jupyter notebook so you can explore the data, train models, and see results interactively.
+
+# 📂 Project Layout
+.
+├── glucose_forecasting_models.ipynb   # Main notebook
+├── data/
+│   └── dataset.zip                    # Dataset (zipped for storage)
+├── requirements.txt                   # List of dependencies
+└── README.md
+
+#🚀 How to Get Started
+#1.Clone this repo
+
+git clone https://github.com/your-username/glucose-forecasting.git
+cd glucose-forecasting
+
+#2.Install required libraries
+
+All dependencies are listed in requirements.txt.
+Install them with:
+pip install -r requirements.txt
+
+#3.Unzip the dataset
+
+Inside the data/ folder there is a file dataset.zip.
+Before running the notebook, unzip it:
+unzip data/dataset.zip -d data/
+After unzipping, the raw data will be ready in data/.
+
+#4.Run the notebook
+
+jupyter notebook glucose_forecasting_models.ipynb
+
+#📝 Notes
+If you’re using Google Colab, upload the extracted data/ folder before running the notebook.
+The notebook includes model training, evaluation, and visualization steps.
+
+#🤖 Models You’ll Find Here
+LSTM — learns long-term dependencies in glucose sequences.
+GRU — simpler and faster than LSTM but still strong for time series.
+CNN — captures short-term glucose spikes and rapid changes.
+Each model is compared so you can see which one works best for short-term glucose forecasting.
+
