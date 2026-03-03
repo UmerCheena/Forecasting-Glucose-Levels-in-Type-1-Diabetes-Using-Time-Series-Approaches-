@@ -3,12 +3,14 @@ This project uses deep learning models (LSTM, GRU, CNN) to predict glucose level
 It’s designed as a Jupyter notebook so you can explore the data, train models, and see results interactively.
 
 # 📂 Project Layout
+```
 .
-├── glucose_forecasting_models.ipynb   # Main notebook
+├── glucose_forecasting_models.ipynb  # Main notebook
 ├── data/
-│   └── dataset.zip                    # Dataset (zipped for storage)
-├── requirements.txt                   # List of dependencies
+│   └── dataset.zip                   # Dataset (zipped for storage)
+├── requirements.txt                  # List of dependencies
 └── README.md
+```
 
 #🚀 How to Get Started
 #1.Clone this repo
