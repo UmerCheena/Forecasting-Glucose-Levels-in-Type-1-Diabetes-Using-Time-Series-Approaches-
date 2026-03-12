@@ -88,29 +88,19 @@ Determine which short-term glucose predicting model is the most accurate.
 ## 🔮 Future Plan
 
 ### Phase 1 — Data Preparation
-- [ ] Handle missing values & outliers
-- [ ] Resample time series to fixed 5 min intervals
-- [ ] Normalize glucose values using MinMaxScaler
-- [ ] Create sequences for time series modeling
+
 
 ### Phase 2 — Feature Engineering
-- [ ] Add lag features
-- [ ] Add rolling mean & standard deviation
-- [ ] Add time of day features (morning, night etc.)
+
 
 ### Phase 3 — Model Development
-- [ ] Build & train LSTM model
-- [ ] Build & train GRU model
-- [ ] Build & train CNN model
+
 
 ### Phase 4 — Evaluation & Comparison
-- [ ] Evaluate all models using MAE, RMSE and R²
-- [ ] Plot predicted vs actual glucose values
-- [ ] Compare all 3 models in a final results table
+
 
 ### Phase 5 — Final Report
-- [ ] Write up findings and conclusions
-- [ ] Submit final year project report
+
 
 ---
 
