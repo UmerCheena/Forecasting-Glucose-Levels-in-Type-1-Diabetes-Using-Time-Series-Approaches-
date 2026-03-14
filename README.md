@@ -78,10 +78,7 @@ Determine which short-term glucose predicting model is the most accurate.
 - [x] Environment setup & GPU configuration
 - [x] Data loading & datetime parsing
 - [x] Exploratory Data Analysis (EDA)
-  - [x] Glucose distribution plot
-  - [x] Hypo/Normal/Hyper pie chart
-  - [x] Patient time series visualization
-  - [x] Per patient statistics
+- [x] Data Processing
      
 ---
 
