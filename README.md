@@ -74,27 +74,6 @@ Determine which short-term glucose predicting model is the most accurate.
 
 ---
 
-## ✅ Current Progress
-- [x] Environment setup & GPU configuration
-- [x] Data loading & datetime parsing
-- [x] Exploratory Data Analysis (EDA)
-- [x] Data Processing
-     
----
-
-## 🔮 Future Plan
-
-Data Preparation
-
-Feature Engineering
-
-Model Development
-
-Evaluation & Comparison
-
-Final Report
-
-
 ---
 
 ## 🛠️ Technologies Used
